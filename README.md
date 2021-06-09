@@ -2,7 +2,7 @@
 (warm-up project!) Implementation of k-means algorithm with matlab 
 
 [ theta, bel, J ] = k_means( X, theta_ini )
-{
+
 	X is an l×N matrix whose columns contain the data vectors
 
 	theta_ini is an l×m matrix whose columns are the initial estimates of θj 
@@ -13,4 +13,5 @@
 	bel is an N-dimensional vector whose ith element contains the cluster label for the ith data vector
 
 	J is the value of the cost function (MSE) for the resulting clustering
-}
+	
+![first_exp(initial data distribution)](https://user-images.githubusercontent.com/85555218/121414872-5e4a7e00-c97c-11eb-9722-f351f8f5d13b.jpg)
