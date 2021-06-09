@@ -33,5 +33,5 @@
 ## figure2 (randomly selecting theta_ini)
 ![second_exp(1)](https://user-images.githubusercontent.com/85555218/121418180-f0a05100-c97f-11eb-994d-ad9ab86b1294.jpg)
 ## results
-> **(figure2)** It is clear that, in principle, k-means is unable to handle cases where noncompact clusters underlie the data set
+> **(figure2)** It is clear that, in principle, k-means is unable to handle cases where noncompact clusters underlie the data set.
 > long narrow or curved clusters are not handled properly (in fact, If shape of clusters are not convex k-means algorithm can't do suitable clustering)
