@@ -22,6 +22,16 @@
 ## figure3 (generate theta_ini according to data distribution)
 ![first_exp(2)](https://user-images.githubusercontent.com/85555218/121415459-006a6600-c97d-11eb-9bd5-ebf976e379bd.jpg)
 ## results
-(figure2) we can see that the algorithm fails to identify successfully the two clusters.
-Specifically, it ends up with two clusters the first one of which is (roughly speaking) one half of the true “large” cluster underlying X; the second one contains the remaining points of the true “large” cluster as well as the points of the true “small” cluster.
-(figure3) by choosing suitable theta_ini we can see that k-means algorithm can cluster data much better.
+> **(figure2)** we can see that the algorithm fails to identify successfully the two clusters.
+> Specifically, it ends up with two clusters the first one of which is (roughly speaking) one half of the true “large” cluster underlying X; the second one contains the remaining points of the true “large” cluster as well as the points of the true “small” cluster.
+> **(figure3)** by choosing suitable theta_ini we can see that k-means algorithm can cluster data much better.
+
+
+# example2
+## figure1 (true clusters)
+![second_exp(initial data distribution)](https://user-images.githubusercontent.com/85555218/121418115-debeae00-c97f-11eb-89ab-45c4e33a2e18.jpg)
+## figure2 (randomly generate theta_ini)
+![second_exp(1)](https://user-images.githubusercontent.com/85555218/121418180-f0a05100-c97f-11eb-994d-ad9ab86b1294.jpg)
+## results
+> **(figure2)** It is clear that, in principle, k-means is unable to handle cases where noncompact clusters underlie the data set
+> long narrow or curved clusters are not handled properly (in fact, If shape of the clusters are not convex k-means algorithm can't do suitable clustering)
