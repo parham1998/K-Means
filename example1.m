@@ -2,7 +2,7 @@ function J = example1()
 
 %generate 2D data with gaussian distribution
 randn('seed', 0)
-%means
+%mean
 m = [0 0; 5 5]; 
 %variance
 S(:,:,1) = 1.5 * eye(2);
