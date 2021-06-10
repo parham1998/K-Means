@@ -1,5 +1,5 @@
-# K-Means
-(warm-up project!) Implementation of k-means algorithm with matlab 
+# K-Means (warm-up project!)
+Implementation of the k-means algorithm with Matlab 
 
 	[ theta, bel, J ] = k_means( X, theta_ini )
 
@@ -24,7 +24,7 @@
 ## results
 > **(figure2)** we can see that the algorithm fails to identify successfully the two clusters.
 > Specifically, it ends up with two clusters the first one of which is (roughly speaking) one half of the true “large” cluster underlying X; the second one contains the remaining points of the true “large” cluster as well as the points of the true “small” cluster.
-> **(figure3)** by choosing suitable theta_ini we can see that k-means algorithm can cluster data much better.
+> **(figure3)** by choosing suitable theta_ini we can see that the k-means algorithm can cluster data much better.
 
 
 # example2
@@ -34,4 +34,4 @@
 ![second_exp(1)](https://user-images.githubusercontent.com/85555218/121418180-f0a05100-c97f-11eb-994d-ad9ab86b1294.jpg)
 ## results
 > **(figure2)** It is clear that, in principle, k-means is unable to handle cases where noncompact clusters underlie the data set.
-> long narrow or curved clusters are not handled properly (in fact, If shape of clusters are not convex k-means algorithm can't do suitable clustering)
+> long narrow or curved clusters are not handled properly. (in fact, If the shape of clusters are not convex, k-means algorithm can't do proper clustering.)
